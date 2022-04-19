@@ -1,0 +1,8 @@
+name = Backdrop-decanter
+description = Built to use SASS and JS decanter front-end framework for faster and easier web development in BackdropCMS.
+backdrop = 1.x
+type = theme
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = core/dist/css/decanter.css
+scripts[] = core/dist/js/decanter.js

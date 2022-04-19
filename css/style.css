@@ -1,0 +1,7 @@
+.nav-tabs{
+  display:flex;
+  gap: 1rem;
+}
+.nav-tabs li{
+list-style: none;
+}
