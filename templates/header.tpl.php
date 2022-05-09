@@ -28,10 +28,9 @@
     </a>
   </div>
 </div>
-<section class="su-masthead [ modifier_class ]">
-
-  <section>
-    <?php if ($site_name || $logo): ?>
+<section class="container">
+  <section class="flex-container">
+    <?php if ($site_name || $logo || $site_slogan): ?>
       <a class="su-lockup" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
         <?php if ($logo): ?>
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -41,30 +40,13 @@
         <?php endif; ?>
       </a>
     <?php endif; ?>
+    <?php if ($site_slogan): ?>
+      <div class="header-site-slogan"><?php print $site_slogan; ?></div>
+    <?php endif; ?>
 
-    <div class="su-site-search " role="search">
-      <form action="/search/node/" method="get" accept-charset="UTF-8">
-        <label class="su-site-search__sr-label" for="search-field">Search this site</label>
-        <input type="text" id="search-field" name="search-field" class="su-site-search__input" placeholder="Search this site" maxlength="128" />
-        <button type="submit" name="search" class="su-site-search__submit su-sr-only-text" aria-label="Search">Submit Search</button>
-      </form>
-    </div>
-
-    <nav class="su-main-nav no-js su-main-nav--mobile-search" aria-label="main menu">
-      <button class="su-main-nav__toggle su-main-nav__toggle--right" aria-expanded="false">Menu</button>
-
-      <?php if ($navigation or $menu): ?>
-          <?php if ($menu) print $menu; ?>
-          <?php if ($navigation) print $navigation; ?>
-      <?php endif; ?>
-
-      <div class="su-site-search " role="search">
-        <form action="/search" method="get" accept-charset="UTF-8">
-          <label class="su-site-search__sr-label" for="search-field">Search this site</label>
-          <input type="text" id="search-field" name="search-field" class="su-site-search__input" placeholder="Search this site" maxlength="128" />
-          <button type="submit" name="search" class="su-site-search__submit su-sr-only-text" aria-label="Search">Submit Search</button>
-        </form>
-      </div>
-    </nav>
+    <?php if ($navigation or $menu): ?>
+      <?php if ($menu) print $menu; ?>
+      <?php if ($navigation) print $navigation; ?>
+    <?php endif; ?>
   </section>
 </section>
