@@ -5,3 +5,9 @@
 .nav-tabs li{
 list-style: none;
 }
+
+/* --- additional styles based on css injector entries  ----*/
+.su-lockup {
+  font-size: 2.44140625em;
+  text-decoration: none;
+}
