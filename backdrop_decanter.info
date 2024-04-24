@@ -1,4 +1,4 @@
-name = Backdrop Decanter 6
+name = Backdrop Decanter 6 (v1.0.1)
 description = Built to use SASS and JS decanter front-end framework for faster and easier web development in BackdropCMS.
 backdrop = 1.x
 type = theme
