@@ -4,4 +4,5 @@ This is a Decanter version of the Backdrop theme built using npm packages with w
 
 ## Documentation
 
-Additional documentation is located in [Repository](https://github.com/borisay/backdrop_decanter).
+Based on Decanter 6 https://github.com/SU-SWS/decanter/tree/v6
+Release v1.0.1-alpha
