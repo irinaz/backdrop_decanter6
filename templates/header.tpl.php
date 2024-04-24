@@ -29,13 +29,9 @@
   </div>
 </div>
 
-<nav class="header-menu"><ul class="header-menu-list"><?php if ($logged_in): ?><li class="first leaf menu-mlid-2"><a href="/user">My account</a></li><li class="last leaf menu-mlid-14"><a href="/user/logout">Log out</a></li><?php endif;
-?><?php if (!$logged_in): ?><li class="last leaf menu-mlid-14"><a href="/user/login">Log in</a></li><?php endif;
-?></ul></nav>
-
 <section class="su-masthead [ modifier_class ]">
 
-		<section>
+	<section>
 
     <?php if ($site_name || $logo): ?>
       <a class="su-lockup" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
