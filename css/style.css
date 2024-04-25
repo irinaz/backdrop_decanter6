@@ -7,7 +7,19 @@ list-style: none;
 }
 
 /* --- additional styles based on css injector entries  ----*/
+
 .su-lockup {
   font-size: 2.44140625em;
   text-decoration: none;
+  color: black;
 }
+
+.su-lockup img {
+  margin-right: 1em;
+}
+
+legend {
+    font-size: unset;
+    letter-spacing: unset;
+    font-weight: unset;
+} 
