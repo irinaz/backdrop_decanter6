@@ -6,6 +6,16 @@
 list-style: none;
 }
 
+legend {
+    font-size: unset;
+    letter-spacing: unset;
+    font-weight: unset;
+} 
+
+h1 {
+  margin-top: 2.5rem;
+}
+
 code,pre {
     padding: 0 3px 2px;
     font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
@@ -43,7 +53,7 @@ pre {
 }
 
 
-/* --- additional styles based on css injector entries  ----*/
+/* --- additional styles ----*/
 
 .su-lockup {
   font-size: 2.44140625em;
@@ -55,15 +65,10 @@ pre {
   margin-right: 1em;
 }
 
-legend {
-    font-size: unset;
-    letter-spacing: unset;
-    font-weight: unset;
-} 
-
-h1 {
-  margin-top: 2.5rem;
+.l-footer {
+    background-color: lightgrey;
 }
+
 .btn-inline {
     display: inline-block;
     margin: .25em;
